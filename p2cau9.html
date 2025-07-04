@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: cyan;
+        }
+        .container {
+            display:grid;
+            grid-template-rows:repeat(2, 1fr) ;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            border:3px solid red;
+        }
+        .audio {
+            align-self: center;
+            border: 3px solid red;
+        }
+    </style>
+    <div class="container">
+        <div class="audio">
+            <audio controls>
+                <source src="catdooinoisau.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    <div class="describe">
+        <h2>Cắt đôi nỗi sầu bởi Trương Lương Dĩnh ft Đan Trường</h2>
+        <p>Bài hát này là một màn mở đầu cho chương trình Sing!Asia 2025 do 2 giám khảo Trương Lương Dĩnh và Đan Trường thể hiện</p>
+    </div>
+    </div>
+</body>
+</html>
